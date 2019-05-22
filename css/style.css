@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #777b92;
+}
+h2 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #273167;
+}
+h3 {
+  font-weight: 300;
+  margin: 0;
+}
+h5 {
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: capitalize;
+  color: #273167;
+}
+.page-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
+  overflow: hidden;
+}
+.text-align-center {
+  text-align: center;
+}
+
+/*------- NUMBERS SPEAKS -------- */
+#numbers-speak {
+  padding-bottom: 80px;
+}
+.section-title {
+  margin-bottom: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.counter {
+  font-size: 48px;
+  font-weight: 300;
+  color: #273167;
+}
+.counter-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/*------- EFFECTIVE TOOLS -------- */
+#effective-tools {
+  background: #fff8f8;
+  padding-top: 80px;
+}
+img {
+  vertical-align: middle;
+}
+.card {
+  background-color: #fff;
+  padding: 30px 35px;
+  justify-content: left;
+}
