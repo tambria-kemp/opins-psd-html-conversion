@@ -13,8 +13,8 @@ PSD to HTML conversion
 
 ## Screenshots
 1. Screenshot from orginal PSD
-![PSD Version](https://github.com/tambriakemp/autoSpaBistro/blob/master/public/images/autospabistrohomepage.png "Home Page")
+![PSD Version](https://github.com/tambriakemp/autoSpaBistro/blob/master/public/images/# "Home Page")
 
 2. Screenshot of conversion to HTML
-![Conversion](https://github.com/tambriakemp/autoSpaBistro/blob/master/public/images/autospabistrohomepage.png "Home Page")
+![Conversion](https://github.com/tambriakemp/autoSpaBistro/blob/master/public/images/# "Home Page")
 
