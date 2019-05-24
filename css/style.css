@@ -1,12 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
   margin: 0;
   color: #777b92;
+  line-height: 38px;
 }
 h2 {
   font-weight: 400;
   font-size: 35px;
   color: #273167;
+  margin: 50px 0;
+  line-height: 45px;
 }
 h3 {
   font-weight: 300;
@@ -18,6 +22,11 @@ h5 {
   text-transform: capitalize;
   color: #273167;
 }
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .page-wrapper {
   position: relative;
   margin: 0 auto;
@@ -28,7 +37,18 @@ h5 {
 .text-align-center {
   text-align: center;
 }
-
+.btn {
+  border: 1px #eeeeee solid;
+  border-radius: 5px;
+  padding: 15px 45px;
+  display: inline-block;
+  margin-top: 55px;
+  background-color: #ffffff;
+  box-shadow: 0px 15px 30px 0px rgb(119, 123, 146, 0.1);
+}
+section {
+  padding: 110px 0;
+}
 /*------- NUMBERS SPEAKS -------- */
 #numbers-speak {
   padding-bottom: 80px;
@@ -52,7 +72,7 @@ h5 {
 /*------- EFFECTIVE TOOLS -------- */
 #effective-tools {
   background: #fff8f8;
-  padding-top: 80px;
+  padding-top: 110px;
 }
 img {
   vertical-align: middle;
@@ -61,7 +81,6 @@ img {
   background-color: #fff;
   padding: 35px 45px;
   justify-content: left;
-  line-height: 35px;
 }
 .green-line {
   border-bottom: 2px #5cda6b solid;
@@ -83,4 +102,21 @@ img {
   font-size: 14px;
   font-weight: 500;
   color: #273167;
+}
+
+/*------- TAKE CONTROL SECTION -------- */
+.half-image {
+  width: 100%;
+}
+#take-control i {
+  color: #e94fca;
+  margin-right: 15px;
+}
+.half-content {
+  margin-top: 40px;
+}
+/*------- TAKE CONTROL SECTION -------- */
+#powerful-tools i {
+  color: #e94fca;
+  margin-right: 15px;
 }
