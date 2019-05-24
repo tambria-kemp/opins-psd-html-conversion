@@ -1,4 +1,4 @@
-# Opins
+# Opins (In Progress as of 5/23/2019)
 https://opins.netlify.com
 
 ## Description
