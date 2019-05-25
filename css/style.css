@@ -8,10 +8,10 @@ body {
 
 h2 {
   font-weight: 400;
-  font-size: 35px;
+  font-size: 46px;
   color: #273167;
   margin: 50px 0;
-  line-height: 45px;
+  line-height: 54px;
 }
 
 h3 {
@@ -38,6 +38,11 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #777b92;
+}
+
 .page-wrapper {
   position: relative;
   margin: 0 auto;
@@ -58,6 +63,7 @@ ul {
   margin-top: 55px;
   background-color: #ffffff;
   box-shadow: 0px 15px 30px 0px rgb(119, 123, 146, 0.1);
+  text-transform: capitalize;
 }
 
 section {
@@ -101,6 +107,7 @@ img {
   background-color: #fff;
   padding: 35px 45px;
   justify-content: left;
+  margin-bottom: 25px;
 }
 
 .green-line {
@@ -142,8 +149,156 @@ img {
   margin-top: 40px;
 }
 
-/*------- TAKE CONTROL SECTION -------- */
+/*------- POWERFUL TOOLS SECTION -------- */
 #powerful-tools i {
   color: #e94fca;
   margin-right: 15px;
+  background: url('/images/bg-curve.png');
+}
+
+/*------- PLAN CARD SECTION -------- */
+.plan-card {
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  text-align: center;
+  padding: 60px;
+  margin-bottom: 30px;
+}
+
+.price {
+  font-size: 62px;
+  font-weight: 300;
+}
+
+.plan-card .green-line {
+  margin: 0 auto;
+}
+
+.plan-card .purple-line {
+  margin: 0 auto;
+}
+
+.plan-card .orange-line {
+  margin: 0 auto;
+}
+
+.plan-card .btn {
+  margin-top: 25px;
+}
+
+.toggle-btn {
+  margin: 30px auto;
+
+}
+
+.toggle {
+  display: block;
+  float: left;
+}
+
+.toggle-btn .btn {
+  box-shadow: none;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.active {
+  background-color: #e94fca;
+}
+
+.toggle-btn li .active.a {
+  color: #ffffff !important;
+}
+
+.subtitle {
+  margin-top: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #273167;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bottom-subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+.green {
+  color: #5cda6b;
+}
+
+.purple {
+  color: #ad63f3;
+}
+
+.orange {
+  color: #f0a734;
+}
+
+/*------- TESTIMONY SECTION -------- */
+
+#testimony {
+  background-color: #F2FFF8;
+}
+
+.map {
+  position: absolute;
+  opacity: 0.15;
+  left: 150px;
+  margin-top: 90px;
+}
+
+.testimony {
+  font-size: 24px;
+  line-height: 46px;
+}
+
+.author {
+  text-transform: capitalize;
+  color: #273167;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.testimonies {
+  height: auto;
+  width: 100%;
+  margin: 90px 0;
+}
+
+.testimony-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/*------- LOGOS SECTION -------- */
+.logos {
+  text-align: center;
+  overflow: hidden;
+}
+
+.corp-logo {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 0;
+  border-top: 1px solid #EAEAEA;
+  margin-top: 120px;
+}
+
+@media only screen and (min-width: 600px) {
+  .testimonies {
+    height: auto;
+    width: 460px;
+    margin: 90px 0;
+  }
+
+  .map {
+    margin: 0;
+  }
 }
