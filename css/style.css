@@ -304,6 +304,29 @@ hr {
 }
 
 /*------- FOOTER SECTION -------- */
+footer i {
+  font-size: 20px;
+}
+
+footer a {
+  text-transform: capitalize;
+}
+
+footer .widget {
+  font-size: 16px;
+}
+
+.social a {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 49px;
+  border: 1px solid #eeeeee;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 15px 30px 0px rgb(119, 123, 146, 0.1)
+}
 
 .widget-title {
   margin-bottom: 15px;
@@ -316,6 +339,16 @@ hr {
   padding: 86px 0;
 }
 
+/*------- FOOTER SECTION -------- */
+.copyright {
+  font-size: 16px;
+  padding: 20px 0 30px 0;
+  text-align: center;
+}
+
+.copyright a {
+  color: #e94fca;
+}
 
 @media only screen and (min-width: 600px) {
   .testimonies {
