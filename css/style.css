@@ -10,6 +10,13 @@ body {
   line-height: 38px;
 }
 
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  color: #273167;
+}
+
 h2 {
   font-weight: 400;
   font-size: 35px;
@@ -88,6 +95,24 @@ a {
 
 section {
   padding: 110px 0;
+}
+
+/*------- NUMBERS SPEAKS -------- */
+header {
+  padding: 300px 0 220px;
+  position: relative;
+  /* margin-bottom: 80px; */
+  background-image: url('/images/header-bg.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: 100;
+  /* background-size: contain; */
+}
+
+.header-phone {
+  position: absolute;
+  right: 5%;
+  top: 15%;
 }
 
 /*------- NUMBERS SPEAKS -------- */
@@ -318,6 +343,23 @@ hr {
   margin-top: 120px;
 }
 
+/*------- WANT TO ASK SECTION -------- */
+.accordian-item {
+  border: 1px solid #eaeaea;
+  padding: 35px 40px;
+  margin: 0 0 20px;
+}
+
+.accordian-title {
+  color: #e94fca;
+  margin: 0 0 20px 0;
+  font-size: 20px;
+}
+
+.accordian-item p {
+  font-size: 16px;
+  line-height: 28px;
+}
 
 /*------- BLOG SECTION -------- */
 
