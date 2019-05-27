@@ -94,12 +94,11 @@ a {
 }
 
 section {
-  padding: 110px 0;
+  padding: 120px 0;
 }
 
 /*------- NUMBERS SPEAKS -------- */
 header {
-  padding: 300px 0 220px;
   position: relative;
   /* margin-bottom: 80px; */
   background-image: url('/images/header-bg.png');
@@ -109,16 +108,37 @@ header {
   /* background-size: contain; */
 }
 
+.inner-header {
+  padding: 300px 0 220px;
+}
+
+header ol li {
+  display: inline-block;
+}
+
 .header-phone {
   position: absolute;
   right: 5%;
   top: 15%;
 }
 
-/*------- NUMBERS SPEAKS -------- */
-#numbers-speak {
-  padding-bottom: 80px;
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
 }
+
+nav li a {
+  margin-right: 60px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*------- NUMBERS SPEAKS -------- */
+/* #numbers-speak {
+  padding-bottom: 80px;
+} */
 
 .section-title {
   margin-bottom: 70px;
@@ -141,7 +161,8 @@ header {
 /*------- EFFECTIVE TOOLS -------- */
 #effective-tools {
   background: #fff8f8;
-  padding-top: 110px;
+  position: relative;
+  padding-bottom: 350px;
 }
 
 img {
@@ -187,6 +208,17 @@ img {
   letter-spacing: 1px;
 }
 
+#effective-tools:before {
+  content: '';
+  width: 100%;
+  height: 251px;
+  background: #fff url('/images/effective-bg.png') center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 /*------- TAKE CONTROL SECTION -------- */
 .half-image {
   width: 100%;
@@ -202,10 +234,16 @@ img {
 }
 
 /*------- POWERFUL TOOLS SECTION -------- */
+#powerful-tools {
+  background: url('/images/bg-curve.png') center top no-repeat;
+  padding: 250px 0;
+  background-position: cover;
+}
+
 #powerful-tools i {
   color: #e94fca;
   margin-right: 15px;
-  background: url('/images/bg-curve.png');
+  /* background: url('/images/bg-curve.png'); */
 }
 
 /*------- PLAN CARD SECTION -------- */
